@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background3">
+
+        <Button
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:id="@+id/button"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WING WING"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="50sp"
+            android:layout_marginTop="20mm"/>
+
+        <SeekBar
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="15mm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="speed"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="18mm"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+    </FrameLayout>
+
+</LinearLayout>
